@@ -12,12 +12,13 @@ public class testng {
 	public class ExampleTest {
 		@BeforeSuite
 		public void runOnce() {
-			System.out.println("This is the @BeforeSuite method");
+			System.out.println("This is the @BeforeSuite method");//very fine
 		}
 
 		@BeforeClass
 		public void runOnce21() {
 			System.out.println("This is the @Beforeclass method");
+			System.out.println("Want to plat resident Evil 8 again");
 		}
 		@AfterClass
 		public void runOnce31() {
