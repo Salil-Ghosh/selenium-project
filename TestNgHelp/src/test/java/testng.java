@@ -13,9 +13,6 @@ public class testng {
 		@BeforeSuite
 		public void runOnce() {
 			System.out.println("This is the @BeforeSuite method");
-			System.out.println("Wow Baby");
-			System.out.println("sexyBaby");
-			System.out.println("lovelyBaby");
 		}
 
 		@BeforeClass
